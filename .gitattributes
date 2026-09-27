@@ -1,0 +1,2 @@
+# Preserve fixture BOMs/newlines and byte-for-byte reproducibility on all systems.
+* -text

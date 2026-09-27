@@ -1,0 +1,14 @@
+company_id,company_name,country_code,website,email,observed_at,phone,synthetic
+SYN-001,Synthetic Example Company 001,ES,https://company-001.example,contact@company-001.example,2026-09-01,,true
+SYN-002,"Synthetic Example 002, lab; ""division""",IT,https://company-002.example,contact@company-002.example,2026-09-01,,true
+SYN-001,Synthetic Example Company 001,ES,https://company-001.example,contact@company-001.example,2026-09-01,,true
+SYN-004,,DE,https://company-004.example,not-an-email,2026-09-01,,true
+SYN-005,Synthetic Example Company 005,FR,not a url,,2026-02-30,,true
+SYN-006,Synthetic Example Company 006,es,https://company-006.example,contact@company-006.example,2026-09-01,,true
+SYN-007,Synthetic Example Company 007,GB,,a..b@company-007.example,01/09/2026,,true
+SYN-008,"Synthetic Example
+Division 008",GB,https://company-008.example,contact@company-008.example,2026-09-01,,true
+SYN-009,Synthetic Example Company 009,,https://company-009.example,.leading@company-009.example,2026-09-01,,true
+SYN-010,   ,NL,ftp://company-010.example,contact@company-010.example,,,true
+SYN-011,Synthetic Example Company 011,PL,https://company-011.example,contact@company-011.example,2026-09-01,,true
+SYN-012,Synthetic Example Company 012,PT,https://company-012.example,contact@company-012.example,2026-09-01,,true

@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "status": "needs_review",
+  "input_format": {
+    "delimiter": "comma",
+    "decoder": "utf-8-sig"
+  },
+  "summary": {
+    "data_records": 12,
+    "column_count": 8,
+    "blank_records_skipped": 0,
+    "required_column_count": 3,
+    "format_rule_count": 4,
+    "required_complete_records": 9,
+    "missing_required_cells": 3,
+    "format_failed_cells": 8,
+    "exact_duplicate_records_beyond_first": 1,
+    "exact_duplicate_groups": 1
+  },
+  "columns": [
+    {
+      "column_id": "column_1",
+      "required": true,
+      "format_rule": null,
+      "present": 12,
+      "missing": 0,
+      "completeness_pct": 100.0,
+      "format_checked": 0,
+      "format_passed": 0,
+      "format_failed": 0
+    },
+    {
+      "column_id": "column_2",
+      "required": true,
+      "format_rule": null,
+      "present": 10,
+      "missing": 2,
+      "completeness_pct": 83.33,
+      "format_checked": 0,
+      "format_passed": 0,
+      "format_failed": 0
+    },
+    {
+      "column_id": "column_3",
+      "required": true,
+      "format_rule": "country_code_alpha2",
+      "present": 11,
+      "missing": 1,
+      "completeness_pct": 91.67,
+      "format_checked": 11,
+      "format_passed": 10,
+      "format_failed": 1
+    },
+    {
+      "column_id": "column_4",
+      "required": false,
+      "format_rule": "url_http",
+      "present": 11,
+      "missing": 1,
+      "completeness_pct": 91.67,
+      "format_checked": 11,
+      "format_passed": 9,
+      "format_failed": 2
+    },
+    {
+      "column_id": "column_5",
+      "required": false,
+      "format_rule": "email_ascii",
+      "present": 11,
+      "missing": 1,
+      "completeness_pct": 91.67,
+      "format_checked": 11,
+      "format_passed": 8,
+      "format_failed": 3
+    },
+    {
+      "column_id": "column_6",
+      "required": false,
+      "format_rule": "date_iso",
+      "present": 11,
+      "missing": 1,
+      "completeness_pct": 91.67,
+      "format_checked": 11,
+      "format_passed": 9,
+      "format_failed": 2
+    },
+    {
+      "column_id": "column_7",
+      "required": false,
+      "format_rule": null,
+      "present": 0,
+      "missing": 12,
+      "completeness_pct": 0.0,
+      "format_checked": 0,
+      "format_passed": 0,
+      "format_failed": 0
+    },
+    {
+      "column_id": "column_8",
+      "required": false,
+      "format_rule": null,
+      "present": 12,
+      "missing": 0,
+      "completeness_pct": 100.0,
+      "format_checked": 0,
+      "format_passed": 0,
+      "format_failed": 0
+    }
+  ],
+  "limitations": [
+    "Measures only this supplied file; does not measure market or registry coverage.",
+    "Format checks are deliberately limited syntax checks, not correctness certificates.",
+    "No email deliverability, DNS, SMTP, phone, consent, or registry verification is performed.",
+    "Exact duplicates use all parsed field values unchanged; entity matching is not performed.",
+    "Reports contain counts and column positions, not input values, headers, or file paths.",
+    "Aggregates are not an anonymization guarantee; review small groups before sharing."
+  ]
+}
